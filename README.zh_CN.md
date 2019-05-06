@@ -47,7 +47,7 @@ egg-cos-promise 版本 | egg 1.x
 
 ```js
 // config/plugin.js
-exports.cosPromise = {
+exports.cos = {
   enable: true,
   package: 'egg-cos-promise',
 };
@@ -55,9 +55,9 @@ exports.cosPromise = {
 
 ## 使用场景
 
-- Why and What: 描述为什么会有这个插件，它主要在完成一件什么事情。
+- Why and What: 腾讯云的cos的sdk不支持promise的写法,所以有了这个插件
 尽可能描述详细。
-- How: 描述这个插件是怎样使用的，具体的示例代码，甚至提供一个完整的示例，并给出链接。
+- How: 对接腾讯云的cos的时候可以选择使用此插件。插件支持promise和async。
 
 ## 详细配置
 

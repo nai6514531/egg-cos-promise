@@ -34,7 +34,7 @@ $ npm i egg-cos-promise --save
 
 ```js
 // {app_root}/config/plugin.js
-exports.cosPromise = {
+exports.cos = {
   enable: true,
   package: 'egg-cos-promise',
 };
@@ -44,7 +44,13 @@ exports.cosPromise = {
 
 ```js
 // {app_root}/config/config.default.js
-exports.cosPromise = {
+config.cos = {
+  client: {
+    secretId: '',
+    secretKey: '',
+    region: '',
+    bucket: ''
+  }
 };
 ```
 

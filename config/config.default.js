@@ -5,6 +5,11 @@
  * @member Config#cos
  * @property {String} SOME_KEY - some description
  */
-exports.cos = {
-
-};
+  config.cos = {
+    client: {
+      secretId: '',
+      secretKey: '',
+      region: '',
+      bucket: ''
+    }
+  }
