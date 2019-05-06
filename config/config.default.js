@@ -5,7 +5,7 @@
  * @member Config#cos
  * @property {String} SOME_KEY - some description
  */
-  config.cos = {
+  exports.cos = {
     client: {
       secretId: '',
       secretKey: '',

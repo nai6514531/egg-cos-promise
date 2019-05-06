@@ -1,6 +1,6 @@
 {
   "name": "egg-cos-promise",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "tencent cloud cos plugin for egg, support promise and async",
   "eggPlugin": {
     "name": "cosPromise"
