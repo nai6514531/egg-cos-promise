@@ -1,6 +1,6 @@
 {
   "name": "egg-cos-promise",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "tencent cloud cos plugin for egg, support promise and async",
   "eggPlugin": {
     "name": "cosPromise"
@@ -46,12 +46,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-cos-promise.git"
+    "url": "git+https://github.com/nai6514531/egg-cos-promise.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/nai6514531/egg-cos-promise/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-cos-promise#readme",
+  "homepage": "https://github.com/nai6514531/egg-cos-promise#readme",
   "author": "shadow.zhou",
   "license": "MIT"
 }
